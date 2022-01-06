@@ -1,3 +1,20 @@
+#### T [bug](https://github.com/sferik/twitter/issues/878#) hasn't been fixed since 2017. 
+This is an ugly solution but works (credit)[https://github.com/sferik/twitter/issues/878#issuecomment-392878152]
+
+what i did?
+1. cloned
+2. changed twitter 6.0 -> 6.1
+3. `bundle install`
+4. `bundle info t`
+
+```
+$ t 3.1.0 built to pkg/t-3.1.0.gem.
+```
+
+6. `rake build` ([per](https://stackoverflow.com/a/3225694/8693062))
+7. `sudo gem install pkg/<blah from info t>`
+8. fixed! use t 
+
 # [![Application icon](https://github.com/sferik/t/raw/master/icon/t.png)][icon]
 [icon]: https://github.com/sferik/t/raw/master/icon/t.png
 
