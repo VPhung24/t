@@ -1,5 +1,5 @@
 #### T [bug](https://github.com/sferik/twitter/issues/878#) hasn't been fixed since 2017. 
-This is an ugly solution but works (credit)[https://github.com/sferik/twitter/issues/878#issuecomment-392878152]
+This is an ugly solution but works [credit](https://github.com/sferik/twitter/issues/878#issuecomment-392878152)
 
 what i did?
 1. cloned
